@@ -3,13 +3,15 @@ export interface Hits {
   from: number
   to: number
   hits: Hit[]
-  _links?: {
-    self?: {
-      href: string
-    }
-    next?: {
-      href: string
-    }
+  _links?: Links
+}
+
+export interface Links{
+  self?: {
+    href: string
+  }
+  next?: {
+    href: string
   }
 }
 

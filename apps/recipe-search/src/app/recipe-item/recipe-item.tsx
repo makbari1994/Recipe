@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardMedia,
   IconButton,
+  Skeleton,
   Typography,
 } from '@mui/material'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
@@ -14,11 +15,12 @@ import ShareIcon from '@mui/icons-material/Share'
 import { Recipe } from '../models'
 
 export interface RecipeItemProps {
-  recipe: Recipe
+  recipe: Recipe,
+  loading: boolean
 }
 
 export function RecipeItem(props: RecipeItemProps) {
-  const { recipe } = props
+  const { recipe, loading } = props
 
   return (
     <Card sx={{ minHeight: 500, maxHeight: 500, overflow: 'auto' }}>
