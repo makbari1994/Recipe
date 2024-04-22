@@ -1,3 +1,12 @@
+
+# list of tasks that we need to do to improve architecture and code quality
+
+`create an api folder and put api request codes there`
+`put api keys in environment files`
+`create model folder`
+
+
+
 # Engineering Challenges
 
 To revolutionize the food-service industry and make healthy food affordable, we need to have a high-performance engineering team. Every new team member must have the capability to have a significant impact on our codebase and our company.
