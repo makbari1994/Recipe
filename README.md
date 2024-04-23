@@ -1,9 +1,9 @@
 
 # list of tasks that we need to do to improve architecture and code quality
 
-`create an api folder and put api request codes there`
-`put api keys in environment files`
-`create model folder`
+### `create an api folder and put api request codes there`
+### `put api keys in environment files`
+### `create model folder`
 
 
 
